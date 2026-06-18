@@ -1,4 +1,4 @@
-Get-ChildItem -Path “$Home\Documents\Test Data Penting” -Recurse | ForEach-Object {
+Get-ChildItem -Path “$Home\Documents” -Recurse | ForEach-Object {
 
 $Content = Get-Content $_.FullName -Raw
 
